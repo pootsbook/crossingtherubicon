@@ -37,11 +37,3 @@ ul {
 ul li {
   margin: 1em 0;
 }
-
-td {
-  vertical-align: top;
-}
-
-.posts a {
-  font-weight: bold;
-}

@@ -1,0 +1,39 @@
+body {
+  color: #454545; 
+  font-family: Georgia;
+  margin: 0 auto;
+  width: 30em;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h1 + h2 {
+  margin-top: 0;
+}
+
+h1 {
+  color: #000;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 1.2em;
+  font-style: italic;
+  color: #666;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+ul {
+  padding-left: 0;
+  line-height: 1.5em;
+}
+
+ul li {
+  margin: 1em 0;
+}

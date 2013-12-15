@@ -45,3 +45,23 @@ ul li {
   margin-bottom: 1em;
   margin-top: 1em;
 }
+
+.references h3 {
+  border-top: 1px solid #dadada;
+  padding-top: 1em;
+  font-variant: small-caps;
+  font-weight: normal;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  margin: 1em 0 0 0;
+}
+
+.references ul {
+  margin-top: 0;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #dadada;
+  margin-bottom: 4em;
+}
+
+.references ul li {
+  margin: 0;
+}

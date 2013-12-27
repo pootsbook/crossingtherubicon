@@ -2,7 +2,13 @@ body {
   color: #454545; 
   font-family: Georgia;
   margin: 0 auto;
-  width: 30em;
+  max-width: 30em;
+}
+
+@media screen and (max-width: 32em) {
+  body {
+    margin: 0 1em;
+  }
 }
 
 h1 {

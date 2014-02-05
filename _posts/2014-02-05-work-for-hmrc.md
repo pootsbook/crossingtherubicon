@@ -30,11 +30,11 @@ The evening started a little shakily, as a quick survey of the room revealed a l
 - transforming organisational culture
 - improving public services
 
-I had a good chat with Ben Welby who is a business analyst at GDS, and worked on GOV.UK. Then I got chatting briefly to Etienne Pollard who led the GOV.UK team and is now Deputy Director for HMRC Transformation.
+I had a good chat with Ben Welby who is a business analyst at GDS and worked on GOV.UK. Then I got talking briefly to Etienne Pollard who led the GOV.UK team and is now Deputy Director for HMRC Transformation.
 
 Etienne is looking for people just like us: those involved with web technologies, web services, with experience building consumer-focused products; developers who ‘get’ open source; the GitHub generation.
 
-He was worried that because of the quick turnaround (applications close on Monday 10th February) and the perception of HMRC (who likes self-assessment?) many might be put off. I say this is your chance to make a difference, your opportunity to contribute significant change to the technical infrastructure underpinning the United Kingdom’s financial affairs—by doing what you love.
+He was worried that because of the quick turnaround (applications close on Monday 10th February) and the perception of HMRC (who likes self-assessment?) many might be put off. I say this is your chance to make a difference, your opportunity to contribute significant change to the technical infrastructure underpinning the UK Government’s financial affairs—by doing what you love.
 
 [Apply.](https://www.gov.uk/government/news/hmrc-now-recruiting-for-world-class-digital-skills) Be the transformation.
 

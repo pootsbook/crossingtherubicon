@@ -3,6 +3,7 @@ body {
   font-family: Georgia;
   margin: 0 auto;
   max-width: 30em;
+  padding-bottom: 1em;
 }
 
 @media screen and (max-width: 32em) {
@@ -70,4 +71,24 @@ ul li {
 
 .references ul li {
   margin: 0;
+}
+
+.footnotes {
+  border-top: 1px solid #dadada;
+  padding-top: 1em;
+  margin-top: 1em;
+  font-size: 0.8em;
+}
+
+.footnotes ol {
+  padding-left: 0;
+}
+
+sup, sub {
+ vertical-align: baseline;
+ position: relative;
+ top: -0.4em;
+}
+sub {
+  top: 0.4em;
 }

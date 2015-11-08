@@ -69,7 +69,7 @@ Many thanks to CodeMesh for making half-day tutorial tickets available, and most
 <div class="footnotes">
   <ol>
     <li>
-These blocks are taken straight from the <a href="https://github.com/evancz/elm-architecture-tutorial/">Elm Architecture Tutorial</a>.
+These building blocks are taken straight from the <a href="https://github.com/evancz/elm-architecture-tutorial/">Elm Architecture Tutorial</a>.
     </li>
     <li>
 I couldn’t find the original citation but there are enough attestations from reputable sources to believe it is genuine.

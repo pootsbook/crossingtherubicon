@@ -16,7 +16,7 @@ You could say superscripts (transpilation) are putting lipstick on a pig and sup
 
 Wouldn’t it be great if we could take the best aspects of both approaches, fusing them into something that was better suited than JavaScript but also considerate of the peculiarities of programming in the browser environment?
 
-I believe that Elm is that third and middle way, qualified to supersede the ’Scripts by providing a language and an approach for our present predicament. It transcends the others precisely because it is attendant to the particulars. It does justice to history, not by repeating it, but by reimagining it; and to the present not by swimming with the tide, but by channeling the flow. Elm is the future.
+I believe that Elm is that third and middle way, qualified to supersede the ’Scripts by providing a language and an approach for our present predicament. It transcends the others precisely because it is attendant to the particulars. It does justice to history, not by repeating it, but by reimagining it; and to the present not by swimming with the tide, but by channeling the flow. Elm is the future. And it deserves a name that stands alone.
 
 —*Monday 9th November 2015.*
 

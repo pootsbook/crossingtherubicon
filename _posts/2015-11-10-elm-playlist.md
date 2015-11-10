@@ -41,7 +41,7 @@ Richard returns with another instalment at the recently held Reactive Conference
 
 Other good talks are:
 
-* “[Functional Principles in React][react]” by Jessica Kerr (my new favourite conference speaker) where she holds Elm up as the logical conclusion to React and Redux.
+* “[Functional Principles in React][react]” by the engaging and exuberant Jessica Kerr holding up Elm as the logical and desirable conclusion to React and Redux.
 * A general talk by Evan on, “[Functional Reactive Programming in Elm][elm-frp]” at the Emerging Technologies for the Enterprise conference in April 2014.
 * Along with his more advanced talk on, “[Controlling Time and Space: understanding the many formulations of FRP][space-time]” at Strange Loop, September 2014. 
 

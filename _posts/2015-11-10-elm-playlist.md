@@ -33,7 +33,7 @@ His talk is a tale of the one who laughs last, laughs loudest. If you couple his
 **Effects as Data**  
 Richard Feldman _Reactive Conference, November 2015_.
 
-Richard returns with another instalment at the recently held Reactive Conference in Europe. This is the practical argument for Elm from first principles. His delivery is masterful, and I don’t think I’ve ever seen an audience break into spontaneous applause at just the mention of a programming language before. 
+Richard returns with another instalment at the recently held Reactive Conference in Europe. This is the practical argument for Elm from first principles. His delivery is masterful, and I don’t think I’ve ever seen an audience break into spontaneous applause at the mere mention of a programming language. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9cIEtC-V2XE?start=10200" frameborder="0" allowfullscreen></iframe>
 
@@ -41,7 +41,7 @@ Richard returns with another instalment at the recently held Reactive Conference
 
 Other good talks are:
 
-* “[Functional Principles in React][react]” by the engaging and exuberant Jessica Kerr holding up Elm as the logical and desirable conclusion to React and Redux.
+* “[Functional Principles in React][react]” by the engaging and exuberant Jessica Kerr, holding up Elm as the logical and desirable conclusion to React and Redux.
 * A general talk by Evan on, “[Functional Reactive Programming in Elm][elm-frp]” at the Emerging Technologies for the Enterprise conference in April 2014.
 * Along with his more advanced talk on, “[Controlling Time and Space: understanding the many formulations of FRP][space-time]” at Strange Loop, September 2014. 
 

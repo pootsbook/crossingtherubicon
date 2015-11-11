@@ -62,7 +62,7 @@ The following illustrates a fuller example with a more nested structure:
         ]
       ]
 
-We’ve pulled in the `Html.Attributes` module to give us access to the `class` and `href` functions. If you have used the Haml or Jade templating engines before, you’ll spot the resemblance in syntax and structure.
+We’ve opened up the `Html` import to include all functions with `..` and pulled in the `Html.Attributes` module to give us access to the `class` and `href` functions. If you have used the Haml or Jade templating engines before, you’ll spot the resemblance in syntax and structure.
 
 ### Composition
 
@@ -85,7 +85,7 @@ What’s really nice is that we can start to break up that example into smaller 
 
 Although this example is a little contrived, you can see how easy it would be to break up more complex sections of UI to keep things neat and tidy.
 
-In the next post we’ll take a look at integrating the Model into what we’ve done today with the View.
+Tomorrow we’ll take a look at integrating the Model into what we’ve done today with the View.
 
 —*Wednesday 11th November 2015*
 

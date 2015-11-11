@@ -2,6 +2,8 @@
 layout: post
 title: Enthralled by Elm
 subtitle: Poots’ Programming Preference
+tags:
+  - Elm
 ---
 
 I have never been quite as excited about a programming language as I am about Elm. It’s been only two weeks since I first set eyes on it, yet I am completely and utterly sold. The last time I had a comparable experience was when Ruby with Rails convinced me, by their elegance and fitness for purpose, that I should in fact learn to program and make a career out of it.

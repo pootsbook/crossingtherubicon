@@ -2,6 +2,8 @@
 layout: post
 title: 'CodeMesh Elm Tutorial'
 subtitle: Poots Picks up Proficiency
+tags:
+  - Elm
 ---
 
 I was fortunate to book a seat to the Elm Tutorial at the CodeMesh conference in London with Elm author Evan Czaplicki at the very last minute. Fortunate because there was space left but also because if I hadn’t left it to the last responsible moment then I would likely have booked a flight in from Amsterdam instead of the train through the channel tunnel. As it happened, thick fog had grounded most planes at Schiphol on Monday morning  so the only downside to the train was that I was forced to purchase a seat in first class.

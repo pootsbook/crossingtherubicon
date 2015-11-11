@@ -2,6 +2,8 @@
 layout: post
 title: My Journey to Elm
 subtitle: Poots’ Passage Painted
+tags:
+  - Elm
 ---
 
 It didn’t take long for Elm to grab my attention. While keeping abreast of developments in the React.js world I was listening to the JavaScript Jabber podcast, [episode 179][jj-redux] with Dan Abramov, off the back of his React Europe talk ‘[Live React: Hot Reloading with Time Travel][redux-talk]’. He was talking about the Redux architecture applied to React and the many benefits that came out of structuring applications in that way. He also mentioned being called out by Evan Czaplicki for not crediting or referencing Elm in that talk as much as he might have done due to the similarity of Redux to Elm and the Elm Architecture. Dan went on to say:

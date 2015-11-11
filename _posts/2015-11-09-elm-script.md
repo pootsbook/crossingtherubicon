@@ -2,6 +2,8 @@
 layout: post
 title: Elm Script?
 subtitle: Poots Ponders Parent and Progeny
+tags:
+  - Elm
 ---
 
 A friend asked me to elaborate on why I hadn’t included ClojureScript alongside CoffeeScript and TypeScript in a [previous post][enthralled], and why I alluded to the significance of the fact that Elm was Elm and not ElmScript. The omission was deliberate and my thoughts on ‘Script’ are speculative but my answers to both questions are inter-related and hopefully by going into detail you’ll be able to see what I was getting at.

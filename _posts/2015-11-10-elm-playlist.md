@@ -2,6 +2,8 @@
 layout: post
 title: An Elm Playlist
 subtitle: Poots Pushes Presentations
+tags:
+  - Elm
 ---
 
 Tutorials, blog posts and articles are great for getting down to the nitty-gritty but I find conference talks and podcasts a useful way to get a high-level overview. Here are some videos and a couple of podcasts that you should watch, and listen to, to get a taste for Elm. 

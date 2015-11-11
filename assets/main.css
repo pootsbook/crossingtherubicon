@@ -36,12 +36,12 @@ p {
   line-height: 1.5em;
 }
 
-ul {
+ul, ol {
   padding-left: 0;
   line-height: 1.5em;
 }
 
-ul li {
+ul li, ol li {
   margin: 0;
 }
 

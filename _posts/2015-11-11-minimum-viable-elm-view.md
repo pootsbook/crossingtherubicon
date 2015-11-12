@@ -41,7 +41,9 @@ A text node works, but we can move onto HTML elements. Let’s put our text in a
     main =
       div [ ] [ text "Hello Elm!" ]
 
-We’ve had to expand our import statement to include the `div` function and our `div` function (like all element node functions) takes two arguments, both of type **List**. The first list, which is empty in our case, is an attribute list, of type **Attribute**. The second argument is a list of children of type **Html**. The function then returns something of type **Html**. Elm uses Type Annotations, so the type annotation for `div` looks like this:
+We’ve had to expand our import statement to include the `div` function and our `div` function (like all element node functions) takes two arguments, both of type **List**. The first list, which is empty in our case, is an attribute list, of type **Attribute**. The second argument is a list of children of type **Html**. The function then returns something of type **Html**.
+
+Elm uses Type Annotations, so the type annotation for `div` looks like this:
 
     div : List Attribute -> List Html -> Html
 
@@ -84,6 +86,20 @@ What’s really nice is that we can start to break up that example into smaller 
       div [ class "content" ] [ content linkToElm ]
 
 Although this example is a little contrived, you can see how easy it would be to break up more complex sections of UI to keep things neat and tidy.
+
+### Making the View Explicit
+
+The last optimization we can make to better perceive the Elm Architecture is to name a `view` function which is in turn called by `main`. Our first, simplest example would therefore look like this:
+
+
+    import Html exposing (text)
+    
+    view =
+      text "Hello Elm!"
+
+    main =
+      view
+
 
 Tomorrow we’ll take a look at integrating the Model into what we’ve done today with the View.
 

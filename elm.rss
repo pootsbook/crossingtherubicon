@@ -25,7 +25,7 @@ title: Elm RSS Feed
         <title>{{ post.title }}</title>
         <description>
           {{ post.excerpt | xml_escape }}
-          &lt;p&gt;&lt;a href=&quot;http://{{ site.production_url }}{{ post.url }}/&quot;&gt;Continue reading…&lt;/a&gt;&lt;/p&gt;
+          &lt;p&gt;&lt;a href=&quot;http://{{ site.production_url }}{{ post.url }}&quot;&gt;Continue reading…&lt;/a&gt;&lt;/p&gt;
         </description>
         <link>http://{{ site.production_url }}{{ post.url }}</link>
         <guid>http://{{ site.production_url }}{{ post.id }}</guid>

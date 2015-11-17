@@ -2,6 +2,8 @@
 layout: post
 title: 'Minimum Viable Elm: View'
 subtitle: Poots’ Piddling Program
+tags:
+  - Elm
 ---
 
 Inherent in the Elm language are the strict constraints placed on programs by the features immutibility and type inference. These naturally derive what is called The Elm Architecture, consisting of three parts:

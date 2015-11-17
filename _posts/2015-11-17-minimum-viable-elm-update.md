@@ -2,6 +2,8 @@
 layout: post
 title: "Minimum Viable Elm: Update"
 subtitle: Poots’ Piddling Program
+tags:
+  - Elm
 ---
 
 Now that we have seen the [view][v] and the [model][m], it’s time to investigate update; the third and last element of Elm’s Model-Update-View Architecture.

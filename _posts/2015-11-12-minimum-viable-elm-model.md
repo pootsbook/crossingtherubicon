@@ -2,6 +2,8 @@
 layout: post
 title: 'Minimum Viable Elm: Model'
 subtitle: Poots’ Piddling Program
+tags:
+  - Elm
 ---
 
 Yesterday we built the smallest possible Elm application, consisting only of a view layer. This is one third of the Elm Architecture (Model, Update, View) and today we examine the model.

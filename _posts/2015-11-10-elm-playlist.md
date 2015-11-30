@@ -37,7 +37,7 @@ Richard Feldman _Reactive Conference, November 2015_.
 
 Richard returns with another instalment at the recently held Reactive Conference in Europe. This is the practical argument for Elm from first principles. His delivery is masterful, and I don’t think I’ve ever seen an audience break into spontaneous applause at the mere mention of a programming language. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=6EdXaWfoslc" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6EdXaWfoslc" frameborder="0" allowfullscreen></iframe>
 
 --
 

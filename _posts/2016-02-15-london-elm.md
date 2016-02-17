@@ -56,5 +56,7 @@ I’ll have to finish here and maybe write up some of the content of our post-me
 
 —*Monday 15th February 2016*
 
+*Update:* I’ve written up the post meetup conversations in [Elm London Post Meetup](/2016/02/16/london-elm-2.html).
+
 *If you’re interested in more Elm, I volunteered myself to give a Webinar to introduce Elm to the LondonJS community on April 14th. [Sign up here](http://www.meetup.com/London-JavaScript-Community/events/228773798/).*
 

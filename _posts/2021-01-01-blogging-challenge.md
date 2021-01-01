@@ -27,4 +27,4 @@ I mentioned the following in an email to Philip as part of my application for th
 
 Last year, in 2020, I was _consistent_ in writing. This year, 2021, I hope to be _prolific_ in publishing.
 
-[TEI](https://philipmorganconsulting.com/the-expertise-incubator/)
+[TEI]: https://philipmorganconsulting.com/the-expertise-incubator/

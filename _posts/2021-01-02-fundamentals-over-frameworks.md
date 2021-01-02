@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Fundamentals over Frameworks
-subtitle: Poots 
 ---
 
 Fundamentals over frameworks could also be phrased as preferring essence over accidence. Fundamentals represent that which is _essential_ to the problem space, frameworks can be seen as an abstraction betraying the necessity of boilerplate, that which is _accidental_ to the problem being solved.

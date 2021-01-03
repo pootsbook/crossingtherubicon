@@ -3,9 +3,9 @@ layout: post
 title: Accidental Architecture
 ---
 
-Yesterday I wrote about how frameworks embody the accidental in software development in [Fundamentals over Frameworks][fun]. I want to remark on one way that I believe we have (sub-)consciously realised this. The movement towards clean architecture is nothing other than an explicit admission that the web framework is accidental to our essential business logic. 
+Yesterday I wrote about how frameworks embody the accidental in software development in [Fundamentals over Frameworks][fun]. I want to remark on one way that I believe we have (sub)consciously realised this. The movement towards clean architecture is nothing other than an explicit admission that the web framework is accidental to our essential business logic.
 
-Cleanly separating these domains in our applications is an attempt to distill our thinking into two clearly defined buckets: the treatment of the (business) problem above the plumbing of the framework. Ports and Adapters or Hexagonal Architecture, or however you want to generalise this approach, manifests itself differently in various programming communities. 
+Cleanly separating these domains in our applications is an attempt to distill our thinking into two clearly defined buckets: the treatment of the (business) problem above the plumbing of the framework. Ports and Adapters or Hexagonal Architecture, or however you want to generalise this approach, manifest themselves differently in various programming communities.
 
 For example, a framework like Elixir’s Phoenix introduced the ‘context’ as a first-class citizen in a nod to Domain Drive Design. James Edward Gray II and Bruce Tate took this even further with their layered architecture in [Designing Elixir Systems With OTP][otp]. 
 

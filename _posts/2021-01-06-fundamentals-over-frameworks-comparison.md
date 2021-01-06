@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fundamentals over Frameworks: Comparison
+title: "Fundamentals over Frameworks: Comparison"
 ---
 
 The last few posts have been terribly abstract. In [Fundamentals over Frameworks][fof] I proposed that the knowledge you aquire when learning a framework is often non-transferrable, whereas the knowledge acquired when learning a language is often more generally applicable.

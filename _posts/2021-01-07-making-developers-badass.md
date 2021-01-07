@@ -23,6 +23,18 @@ If we talk about Rails in this context you’ll remember how ‘bad’ it was; i
 
 Now it came as no surprise when I heard recently that Kathy Sierra had been a major influence on David Heinemeier Hansson in the months and years before Rails came on the scene, but it did make me think, especially in light of having just read her book. Rails offers the perfect, text book example, in open source, of Kathy Sierra’s thesis.
 
+> **A world of passion from Kathy Sierra**
+
+> I first discovered Kathy Sierra about three months ago and I've been reading her Creating Passionate Users blog religiously ever since. As a big fan of her writing, I was naturally immensely delighted to see her highlight not only Ruby on Rails but also do a 37signals Passion Review.
+
+> It's fantastic. I keep getting questions from people who wants to know why it is that Ruby on Rails are making 10-meter waves at the moment. And more importantly, how they can make the same happen for their own project. Kathy has a lot of answers for just that questions. It's all about the passion, about making users "kick ass", and for getting that Next Level groove going.
+
+> See how it just happened in this post? I really liked Kathy's work, she blogged about mine, I returned the ball, and know _you_ are probably positioned in an even more positive place about both of our stuff.
+
+> Passion, baby.
+
+> *—David Heinemeier Hansson’s blog, [10th August 2005](https://web.archive.org/web/20050813010400/http://www.nextangle.com/)*
+
 You’ll be hard-pressed to find a Python developer who wouldn’t hold up Django as a superior feat of engineering—it was the framework for perfectionists with deadlines. The ducks were all neatly in a row. The documentation was excellent and it did the job. How then did Rails gain mindshare with an ‘inferior’ product? Rails was focused on the wider context, Rails was not focused on the technology, but on the applications it would enable you to build. As the webmaster (remember them?) of our university rugby club website which was a mass of copied and pasted HTML and CSS, I needed something to make it dynamic to save me hand-updating all the pages for a simple layout change. I naturally arrived at PHP which solved my immediate problems, but as my vision and goals became greater I ended up having to buy six books to teach me how to accomplish various tasks: interacting with the database; database design; session and cookie management; object-oriented PHP for managing pages and templates effectively; I could go on. So before I’d even read half of these books I came across the Rails ‘build a blog in five minutes’ video and it blew my mind. Mr. Heinemeier Hansson had essentially made my whole bookshelf redundant. Everything in my list had been encoded into a framework that was being served up to me on a plate. I didn’t even regret my purchases, but I threw them all out. Even the thought of using Rails made me feel awesome. It opened up a world of possibility. Rails has made people billionaires, many capitalized not on Rails, but on what Rails enabled. Basecamp, Twitter, GitHub, Heroku, Shopify—million and billion dollar companies. People didn’t love Rails because it was awesome, they loved Rails because it made _them_ feel awesome. And because it enabled them to build awesome products and awesome businesses.
 
 Rails had brilliant documentation and on top of that it had wonderful guides written for people who got things done. The forum was welcoming, blog posts were buzzing, all filled with the electricity of something that had made them come alive.

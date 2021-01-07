@@ -3,6 +3,10 @@ layout: post
 title: Making Developers Badass
 ---
 
+<small>
+<em>Penned on 13th January 2016.</em>
+</small>
+
 This is an article applying the body of Kathy Sierra’s latest book, “[Badass: Making Users Awesome][ksb]”—written for products—to the world of open-source languages and frameworks. When reading the book, the analogue between a startup’s product and open source ‘products’ such as frameworks Rails and Ember.js, or languages such as CoffeeScript and Elm, is uncanny and worth developing.
 
 The premise of the book is simple: a product should not be judged on how it works but on what it enables the user to accomplish. Not by how it looks or feels, but by how it makes the user feel. The fact being, that by extension, the success of a product is directly proportional to how awesome the user feels when using it or after having used it.
@@ -23,6 +27,14 @@ You’ll be hard-pressed to find a Python developer who wouldn’t hold up Djang
 
 Rails had brilliant documentation and on top of that it had wonderful guides written for people who got things done. The forum was welcoming, blog posts were buzzing, all filled with the electricity of something that had made them come alive.
 
-And it inspired an amazing community. Focused on learning and helping people learn. The school of ‘it’s so good we want you to know it too’: Railscasts, Peepcode, Envycasts (later CodeSchool), Rails Tutorial, RailsBridge, Rails Girls, the first, and majority of coding bootcamps. And Rails was so, obsessively, focused on the developer experience. The blog video, scaffolding, ActiveRecord, database migrations, associations, validations, view helpers, form helpers, session management. It was like having your own web development concierge, “Cookie? I’ve got that for you.” Add in Prototype and Scriptaculous and you had AJAX, effects and animations. In one magical box. Magical because it made you the magician. Look at what I built! Not, look at Rail’s superior technical featureset and obvious capabilities and advantages over the competition. No. Look at this service I’ve just created that it so cool that it breaks the Internet. LOOK! LOOK AT ME! I AM INVINCIBLE!
+And it inspired an amazing community. Focused on learning and helping people learn. The school of ‘it’s so good we want you to know it too’: Railscasts, Peepcode, Envycasts (later CodeSchool), Rails Tutorial, RailsBridge, Rails Girls, the first, and majority of coding bootcamps. And Rails was so, obsessively, focused on the developer experience. The blog video, scaffolding, ActiveRecord, database migrations, associations, validations, view helpers, form helpers, session management. It was like having your own web development concierge, “Cookie? I’ve got that for you.” Add in Prototype and Scriptaculous and you had AJAX, effects and animations. In one magical box. Magical because it made you the magician. Look at what I built! Not, look at Rail’s superior technical featureset and obvious capabilities and advantages over the competition. No. Look at this service I’ve just created that it so cool that it breaks the Internet.
+
+LOOK!
+
+LOOK AT ME!
+
+I AM INVINCIBLE!
+
+—*Thursday 7th January 2021.*
 
 [ksb]: https://www.oreilly.com/library/view/badass-making-users/9781491919057/

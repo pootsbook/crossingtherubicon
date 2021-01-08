@@ -3,6 +3,10 @@ layout: post
 title: "Badass Developers: Ember"
 ---
 
+<small>
+<em>Penned on 14th January 2016.</em>
+</small>
+
 When you compare what you had to do then to get something up and running compared to how you might be recommended to build something today in Rails, with true separation of concerns, ActiveRecord with simple data objects and wrappers for business logic, service objects removing logic from skinny controllers, persenters and decorators for the view layer, you begin to understand that Mr. Heinemeier Hansson made a conscious choice to leave these things out for the purpose of keeping things simple and approachable. Anyone could build a Rails application. This focus on narrowing down the core of what Rails was can be attributed to his no-nonsense, business focused, get things done mentality. He was focused not on building a great framework but on helping people build a great product, and the bi-product was a great framework. 
 
 Rails was extracted out of a living, breathing, profit generating project management application, Basecamp. Rails helped people be better at their compelling context, and even greater, gave people something so exhilirating that it gave them a reason to look for a compelling context just so they could use it. The mountain of books on my shelf was reduced to one, Agile Web Development with Rails. People were saying Rails was awesome, not because it ticked some technical requirements list but because it removed the friction and frustration of previous methods, granting them the opposite; what they would have spent two months building would take two weeks. Rails had given them superpowers. And that was because Rails was designed to help them build a product and to remove or abstract or automate everything that stood in the way of that goal.

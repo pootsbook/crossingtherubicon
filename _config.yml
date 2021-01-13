@@ -2,3 +2,7 @@ highlighter: pygments
 production_url: crossingtheruby.com
 plugins:
   - jekyll-feed
+title: crossingtheruby.com
+description: Iacta alea est
+url: https://www.crossingtheruby.com
+author: Philip Poots

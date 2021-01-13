@@ -1,2 +1,4 @@
 highlighter: pygments
 production_url: crossingtheruby.com
+plugins:
+  - jekyll-feed

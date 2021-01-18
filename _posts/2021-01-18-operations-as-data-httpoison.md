@@ -22,7 +22,7 @@ By surfacing all of the details and collecting them in one place it keeps the im
 
 The `%HTTPoison.Request{}` struct gives you a clear focal point for gathering everything that is necessary and you are free to construct it however you want. In Ruby, with `net/http`, making an HTTP request is more convoluted. Each of the individual elements for an individual request are dispersed across a wide range of methods and corresponding method parameters. Good luck finding the right combination for any given request.
 
-Of course, there’s nothing to prevent someone using the same approach in Ruby, but a quick review of the popular HTTP clients reveals nothing similar. There is often a `Request` object which encapsulates all of the individual elements, but creating this object requires leaning on the config, alongside different method calls with options parameters.
+Of course, there’s nothing to prevent someone using the same approach in Ruby, but a quick review of the popular HTTP clients reveals nothing similar. There is often a `Request` object which encapsulates all of the individual elements, but creating this object requires leaning on the config alongside different method calls with options parameters.
 
 There is a certain simplicity to using a clear, visible, easy to understand, and straightforward to manipulate data structure as the foundation for an HTTP request. Theoretically this could used as the basis for making requests with any HTTP client, similarly to how Ecto.Query’s data can be adapted to execute against different data stores.
 

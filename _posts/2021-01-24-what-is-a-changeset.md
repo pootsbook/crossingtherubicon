@@ -130,16 +130,16 @@ Ecto.Changeset.cast(
 
 To recap this has done a number of things:
 
-1. Stored the source data `%{name: Philip}`  
-(first element of the tuple passed as the first argument)
-2. Stored the type data `%{name: :strong}`  
-(second element of the tuple passed as the first argument)
-3. Stored the params data `%{name: "Philip"}`  
-(second argument)
-4. Filtered the params data to only include the data from the specified keys in the changes map  
-(the list of keys in the third argument)
+1. Stored the source data: `%{name: Philip}`  
+_(first element of the tuple passed as the first argument)_
+2. Stored the type data: `%{name: :strong}`  
+_(second element of the tuple passed as the first argument)_
+3. Stored the params data: `%{name: "Philip"}`  
+_(second argument)_
+4. Filtered the params data to only include the data from the specified keys in the changes map: `[:name]`  
+_(the list of keys in the third argument)_
 5. Calculated the desired changes based on (a) the filtered params and (b) the values in the params that represent a change from the source data  
-(We could have passed in a set of params that was identical to the source data and thus required no changes)
+_(We could have passed in a set of params that was identical to the source data and thus required no changes)_
 
 And we have our changeset. Next we move onto what we can do with it.
 

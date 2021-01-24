@@ -3,7 +3,7 @@ layout: post
 title: What is a Changeset?
 ---
 
-Ecto, the Elixir package for interacting with data stores, introduces something called a changeset. A changeset is nothing other than a set of changes. In the context of Ecto, a set of changes that is intended to be committed to the data store. 
+Ecto, the Elixir package for interacting with data stores, introduces something called a changeset. A changeset is nothing other than a set of changes. In the context of Ecto, a set of changes to be committed to the data store. 
 
 Yesterday I looked at the Ecto Changeset lifecycle from a very crude angle and now I’d like to dive a little deeper into precisely what an `Ecto.Changeset` is and does.
 

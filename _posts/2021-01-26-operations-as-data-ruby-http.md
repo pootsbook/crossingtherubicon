@@ -238,34 +238,34 @@ class Pipedrive
   end
   … 
   def create_organization(attrs)
-    request {
+    request({
       method: :post,
       path: "/organizations",
       body: attrs.to_json
-    }
+    })
   end
   
   def delete_organization(id)
-    request {
+    request({
       method: :delete,
       path: "/organizations/#{id}"
-    }
+    })
   end
   
   def update_organization(attrs)
     id = attrs.delete("id")
-    request {
+    request({
       method: :put,
       path: "/organizations/#{id}",
       body: attrs.to_json
-    }
+    })
   end
 
   def find_organization(id)
-    request {
+    request({
       method: :get,
       path: "/organizations/#{id}"
-    }
+    })
   end
   
   private
@@ -290,11 +290,11 @@ end
 Although I was worried that having to call the module `HTTPClient::Request.new` each time would end up making the code a little ugly, the uniformity of the interface means we can put that all behind the scenes. What we are left with in each method is a neat and tidy, declarative specification of the HTTP request:
 
 ```ruby
-request {
+request({
   method: :put,
   path: "/organizations/#{id}",
   body: attrs.to_json
-}
+})
 ```
 
 And I must admit, I really like it. I’ve really surprised myself there. Tomorrow I’ll review it for you in more detail.

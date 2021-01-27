@@ -5,7 +5,7 @@ title: "Operations as Data: Ruby HTTP (2)"
 
 Yesterday I attempted to port back a functional style of programming spotted in Elixir back to Ruby in [Operations as Data: Ruby HTTP][oadr].
 
-Today I’d like to reflect on what I came up with: how it compares with what I had initially; how it compares to doing the same thing in Elixir; where it could be improved upon; what feels good and right and what doesn’t among no doubt some other things.
+Today I’d like to reflect on what I came up with: how it compares with what I had initially; how it compares to doing the same thing in Elixir; where it could be improved upon; what feels good and right and what doesn’t among other things.
 
 ## Transparency
 

@@ -12,7 +12,7 @@ title: The Python Paradox, Elitism and the Mainstream
 
 The Python Paradox was coined by Paul Graham in the [eponymous post][pgep] of August 2014, which states:
 
-> if a company chooses to write its software in a compartively esoteric language, they’ll be able to hire better programmers, because they’ll attract only those who cared enough to learn it. And for programmers the paradox is even more pronounced: the language to learn, if you want to get a good job, is a language that people don’t learn merely to get a job.
+> if a company chooses to write its software in a comparatively esoteric language, they’ll be able to hire better programmers, because they’ll attract only those who cared enough to learn it. And for programmers the paradox is even more pronounced: the language to learn, if you want to get a good job, is a language that people don’t learn merely to get a job.
 
 Now, having stated the rule, there will always be those who follow the rule to obtain the benefit in place of those whose behaviour proved the rule; those that love and care enough about programming languages to learn an esoteric language in the first place, absent from commercial interests or promises of financial return.
 

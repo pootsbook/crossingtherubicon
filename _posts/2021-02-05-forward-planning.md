@@ -5,7 +5,7 @@ title: "Forward Planning"
 
 I was driving past some roadworks this morning and it dawned on me that what they were working on was simply the next step in a plan that had been thought out many years ago.
 
-About twelve years ago in fact. I had been driving down the same road for the very first time. It was my first trip to my (now) wife’s home town in the Netherlands. The whole experience of the incredibly polished Dutch infrastructure during my first forty-five minutes in the country had already been truly eye-opening but what appeared stuck out like a sore thumb.
+About twelve years ago in fact. I had been driving down the same road for the very first time. It was my first trip to my (now) wife’s home town in the Netherlands. The whole experience of the incredibly polished Dutch infrastructure during my first forty-five minutes in the country had already been truly eye-opening but what appeared next stuck out like a sore thumb.
 
 There was a bridge over the road that was double the width of the road! And I wasn’t about to drive under the middle of the bridge, but only under the left-hand side. The other side stuck out into a field as if they’d let a spatially challenged trainee engineer loose on the project. It was a sight to behold.
 

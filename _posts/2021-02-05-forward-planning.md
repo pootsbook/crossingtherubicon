@@ -43,7 +43,7 @@ In the Netherlands these things are forethought; in the UK they’re an aftertho
 
 ---
 
-So today, there I was, driving along that very same road, marvelling at the fruition of this particular Dutch plan. They were laying the “other half” of the road to go under that bridge—twelve years later. And I thought to myself, in the UK they’d probably have built a narrow bridge first, later knocking it down only to build it again to fit the updated road layout..
+So today, there I was, driving along that very same road, marvelling at the fruition of this particular Dutch plan. They were laying the “other half” of the road to go under that bridge—twelve years later. And I thought to myself, in the UK they’d probably have built a narrow bridge first, later knocking it down only to build it again to fit the updated road layout.
 
 Now this post isn’t about bridges, or speed bumps, or the Dutch, or the British—it won’t even do damage to your car—but it is about forward planning. About being deliberate. About doing things now that cost more but will pay off in the long term.
 

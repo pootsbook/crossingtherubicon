@@ -20,7 +20,7 @@ source_data = %{name: "Phillip"}
 types       = %{name: :string}
 params      = %{name: "Philip!"}
 
-changeset = cast({source_data, data}, params, [:name])
+changeset = cast({source_data, types}, params, [:name])
 validated_changeset = validate_format(changeset, :name, ~r/\A\w+\z/)
 ```
 

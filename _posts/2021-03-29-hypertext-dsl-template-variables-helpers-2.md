@@ -7,7 +7,7 @@ In the last post I [successfully combined][hvh] experiments with [variables][hve
 
 My curiosity got the better of me, as it often does, and I wanted to see how Markaby, a partial inspiration for this templating approach, accomplished the same goal.
 
-In the `Markaby::Builder` class, which is analogous to the `Hypertext::DSL` class (or module, in my variation) the `initialize` method takes both variables and a helper object as parameters, in addition to the template block to be evaluated, assigning them both to instance variables.
+In the `Markaby::Builder` class, which is analogous to the `Hypertext::DSL` class (or module, in my variation) the `initialize` method takes both variables and a helper object as parameters in addition to the template block to be evaluated, assigning them both to instance variables.
 
 ```
 module Markaby

@@ -51,7 +51,7 @@ In my second job we were dealing with the legacy of a Rails app that was written
 
 It had also chosen to integrate the YUI JavaScript Library which was already dated and dictated a particular approach to writing JavaScript which none of us on the team felt was a good idea. We’d tip-toe nervously around the JavaScript parts of the codebase and touch as little as possible mortified by the fear of breaking everything with a stray semi-colon (it’s a fear that I don’t think I’ve yet recovered from).
 
-But it was unworkable. It slowed things down. It meant features tool longer to build. (An example of [exponential complexity][ec] if you will.) And we all knew that sooner or later we’d have to rip it out and replace it with the new kid on the block, jQuery.
+But it was unworkable. It slowed things down. It meant features took longer to build. (An example of [exponential complexity][ec] if you will.) And we all knew that sooner or later we’d have to rip it out and replace it with the new kid on the block, jQuery.
 
 I grasped the nettle. I documented the behaviour of all of the JavaScript across the whole site. I discovered swathes of code that were never executed, no doubt left alone to avoid the house of cards falling down. I worked out what was executed, when, and why. And then I started taking it apart, piece by piece and replacing it with a framework that we all understood and could all work with.
 

@@ -61,7 +61,7 @@ window.register_stimulus_controller("text-saver", {
 });
 ```
 
-This controller captures the value of its target as it changes and persists it to local storage. If you load the page then it looks for any value stored for that particular form and field in locale storage and populates the value of the `textarea` if found. When you successfully submit a form then it clears the corresponding entry in local storage so that you can start afresh.
+This controller captures the value of its target as it changes and persists it to local storage. If you load the page then it looks for any value stored for that particular form and field in local storage and populates the value of the `textarea` if found. When you successfully submit a form then it clears the corresponding entry in local storage so that you can start afresh.
 
 This is how it is hooked up to the Rails form helper, with everything configured via `data-` attributes as per Stimulus:
 

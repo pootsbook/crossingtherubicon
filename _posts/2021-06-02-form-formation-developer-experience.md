@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Form Formations: Developer Experience"
+title: "Form Formation: Developer Experience"
 ---
 
 While talking to a reader of the blog about my research so far, he mentioned a pet peeve when working with form libraries.

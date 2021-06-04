@@ -30,6 +30,7 @@ end
 And this was the HTML:
 
 ```
+{% raw %}
 <form action="/contact" method="post">
   <ul>
     % contact_form.errors.each do |error|
@@ -68,6 +69,7 @@ And this was the HTML:
   
   <input type="submit" value="Send">
 </form>
+{% endraw %}
 ```
 
 If we take a step back then we see that this form has several attributes: an action, a method, a value for the submit button, a list of form fields and a list of errors. (Form fields could also be grouped with their respective errors, but for now we’ll keep them separate.)

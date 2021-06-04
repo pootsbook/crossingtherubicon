@@ -63,6 +63,26 @@ img {
   width: 100%;
 }
 
+ol.posts {
+  list-style: none;
+}
+
+ol.posts li {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 28em) {
+  ol.posts li {
+    flex-direction: column;
+  }
+}
+
+ol.posts li div.date {
+  width: 7em;
+  flex-shrink: 0;
+}
+
 .highlight {
   padding: 0.3em 1em;
   margin-left: -1em;

@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Form Formation: Hanami Validation Integration
+title: "Form Formation: Hanami Validation Integration"
 ---
 
 In yesterday’s post I showed how to define and run [validations in Hanami][hv]. I later learned that Hanami’s approach of mixing in modules rather than using inheritance is a core tenet of the framework.
 
 What I didn’t uncover was where in the greater whole validations are defined, and how the error messages are returned to the HTML form.
 
-What is fascinating about Hanami validations is that they mirror the popular use of schemas and changesets in Phoenix _at the web or controller layer_. Although this is not the ‘blessed’ approach in the framework, with schemas and validations being run far closer to the models and business logic, it has two notable proponents; [Saša Jurić][sjc] and [Aaron Renner][ar] both consider casting, filtering and validation essential at the controller level, next to the form, and Hanami agrees.
+What is fascinating about Hanami validations is that they mirror the popular use of schemas and changesets in Phoenix _at the web or controller layer_. Although this is not the ‘blessed’ approach in the Phoenix framework, with schemas and validations being run far closer to the models and business logic, it has two notable proponents; [Saša Jurić][sjc] and [Aaron Renner][ar] both consider casting, filtering and validation essential at the controller level, next to the form, and Hanami agrees.
 
 Hanami controllers, or rather _actions_ have a DSL to apply type casting, filtering and validation with a built-in DSL:
 

@@ -68,7 +68,7 @@ $ git diff --name-only --cached --diff-filter=AM | map f 'mix format "$f"'
 
 And there we have it. `mix format` being only run for files that have been added or modified. Now I can compare the changes `mix format` has made with `git diff` and then selectively add those that are relevant to my own edits, ignoring those that aren’t, using `git add --interactive --patch`.
 
-—*Sunday 19th June 2022.*
+—*Sunday, 19th June 2022.*
 
 <div class="references">
   <h3>References</h3>

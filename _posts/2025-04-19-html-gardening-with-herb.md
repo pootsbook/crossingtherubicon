@@ -32,7 +32,7 @@ Let’s say that we want to coalesce our different compositions of Bootstrap Ale
 
 Looking further, but remaining in ERB, we could write a helper method and ensure that all instances of the Bootstrap Alert use the helper method, rewriting the AST, or simply re-rendering the ERB to file with this modification.
 
-And should one wish to make the switch to a more component-based view layer with GitHub’s ViewComponent or (should I win my colleagues over) Phlex, it should also be possible to automate the transition from ERB to Phlex.
+And should one wish to make the switch to a more component-based view layer with GitHub’s ViewComponent or (should I win my colleagues over) Phlex, it should also be possible to automate the transition from ERB.
 
 These two Herb use-cases are things I would very much like to explore.
 

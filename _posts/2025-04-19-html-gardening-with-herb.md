@@ -26,7 +26,7 @@ ClubCollect’s codebase is over eleven years old which in modern terms is like 
 
 With Herb, it is possible to parse the ERB, and because it models the HTML in an AST, it is possible to search for the value `"alert"` present specifically inside an HTML `class` attribute. This may not return all the cases, but it reduces the set of false positives.
 
-## Modifying and/or Transforming ERB
+## Modifying ERB Programatically
 
 Let’s say that we want to coalesce our different compositions of Bootstrap Alert into some form of component. Maybe history hindered a former colleagues adherence to accessibility (maybe that former colleague was me!) and left out the `role` attribute. Having located instances of the Bootstrap Alert it should be possible, with the Herb AST, to ensure conformance to the proper HTML definition, and if it falls short, supplement the existing definition with the missing piece(s).
 

@@ -228,7 +228,7 @@ Herb.parse('<br />').value
 
 ## Tree Nest
 
-The following tree is nested according to the levels above for an quick overview. The only thing to note is that where the `HTMLElementNode#body` in this case contains an “only-child” of HTMLTextNode for simplicity, it could of course contain many children, of different types, and nested several layers deep depending on the structure of the HTML.
+The following tree is nested according to the levels above for an quick overview. The only thing to note is that where the `HTMLElementNode#body` in this case contains an “only-child” of `HTMLTextNode` for simplicity, it could of course contain many children, of different types, and be nested several layers deep depending on the structure of the HTML.
 
 ```
 Herb::AST::DocumentNode

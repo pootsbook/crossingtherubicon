@@ -203,4 +203,77 @@ Herb.parse('<span class="alert">Watch out!</span>').value
         └── is_void: false
 ```
 
+### `Herb::AST::HTMLSelfCloseTagNode`
+
+I would expect a void HTML node to result in an `HTMLSelfCloseTagNode`, however it seems this is instead handled by a `HTMLOpenTagNode#void == true`.
+
+```
+Herb.parse('<br />').value
+@ DocumentNode (location: (1:0)-(1:6))
+└── children: (1 item)
+    └── @ HTMLElementNode (location: (1:0)-(1:6))
+        ├── open_tag:
+        │   └── @ HTMLOpenTagNode (location: (1:0)-(1:6))
+        │       ├── tag_opening: "<" (location: (1:0)-(1:1))
+        │       ├── tag_name: "br" (location: (1:1)-(1:3))
+        │       ├── tag_closing: "/>" (location: (1:4)-(1:6))
+        │       ├── children: []
+        │       └── is_void: true
+        │
+        ├── tag_name: "br" (location: (1:1)-(1:3))
+        ├── body: []
+        ├── close_tag: ∅
+        └── is_void: true
+```
+
+## Tree Nest
+
+The following tree is nested according to the levels above for an quick overview. The only thing to note is that where the `HTMLElementNode#body` in this case contains an “only-child” of HTMLTextNode for simplicity, it could of course contain many children, of different types, and nested several layers deep depending on the structure of the HTML.
+
+```
+Herb::AST::DocumentNode
+  :children #=> Herb::AST::HTMLElementNode
+
+    Herb::AST::HTMLElementNode
+      :open_tag  #=> Herb::AST::HTMLOpenTagNode
+      :tag_name
+      :body      #=> [Herb::AST::HTMLTextNode, …]
+      :close_tag #=> Herb::AST::HTMLCloseTagNode
+      :is_void
+
+        Herb::AST::HTMLOpenTagNode
+          :tag_opening
+          :tag_name
+          :tag_closing
+          :children #=> Herb::AST::HTMLAttributeNode
+          :is_void
+
+            Herb::AST::HTMLAttributeNode
+              :name   #=> Herb::AST::HTMLAttributeNameNode
+              :equals
+              :value  #=> Herb::AST::HTMLAttributeValueNode
+
+                Herb::AST::HTMLAttributeNameNode
+                  :name
+
+                Herb::AST::HTMLAttributeValueNode
+                  :open_quote
+                  :children #=> Herb::AST::LiteralNode
+                  :close_quote
+                  :quoted
+
+                    Herb::AST::LiteralNode
+                      :content
+
+        Herb::AST::HTMLTextNode
+          :content
+
+        Herb::AST::HTMLCloseTagNode
+          :tag_opening
+          :tag_name
+          :tag_closing
+```
+
+There are a few more observations to make. The `HTMLElementNode` consists of three parts, the `#open_tag` (`<span class="alert">`, `#body` (`Watch out!`) and `#close_tag` (`</span>`). It speaks of a `#body` rather than `#children` (in other node types) but these seem for all intents and purposes identical in function. The tag nodes (`HTMLOpenTagNode` and `HTMLCloseTagNode`) have `#tag_opening` (`<`, and `</` respectively), `#tag_name` (`span`) and `#tag_closing` (`>`) methods. The `HTMLOpenTagNode` has support for HTML attributes via `#children` and supports void elements (i.e., self-closing tags like `<input />`) with `is_void`. `HTMLAttributeNode`s are themselves a compound of `#name` and `#value` where the `HTMLAttributeValueNode` has itself a `#children` collection of `Herb::AST::LiteralNode`s.  The `LiteralNode` and the `HTMLTextNode` have `#content`.
+
 —*1819, Sunday 20th April 2025.*
